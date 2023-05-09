@@ -1,0 +1,131 @@
+/* Bu CSS kod bloğu, tüm HTML elementleri için geçerli olan stil özelliklerini sıfırlamak için kullanılır. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Bu CSS kod bloğu, body elementi için stil özellikleri belirler. */
+body{
+    /* Font-family özelliği, sayfa içeriğindeki metnin fontunu belirler.  */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Color özelliği, metin rengini belirler */
+    color: #fff;
+    /* Background-image özelliği, sayfanın arka planında kullanılacak görüntüyü belirler.  */
+    background-image: url(/Tatvan.jpg);
+    /* Background-position özelliği, arka plan görüntüsünün konumunu belirler.  */
+    background-position: center;
+    /* Background-repeat özelliği, arka plan görüntüsünün tekrarlanıp tekrarlanmayacağını belirler */
+    background-repeat: no-repeat;
+    /* Background-size özelliği, arka plan görüntüsünün boyutunu belirler. */
+    background-size: cover;
+    /* Height özelliği, sayfanın yüksekliğini belirler */
+    height: 100vh;
+    /* Justify-content ve align-items özellikleri, flex kutusu içindeki elemanların hizalamasını belirler. */
+    justify-content: center;
+    align-items: center;
+    /* Font-size özelliği, metin boyutunu belirler. */
+    font-size: 18px;
+}
+    /* Bu CSS kod bloğu, .app adlı sınıfa sahip bir HTML elementi için stil özellikleri belirler. */
+.app{
+    /* Display özelliği, elementin görüntülenme şeklini belirler.  */
+    display: flex;
+    /* Flex-direction özelliği, flex kutusunun hizalama yöntemini belirler */
+    flex-direction: column;
+    /* Align-items özelliği, flex kutusu içindeki öğelerin dikey hizalamasını belirler. */
+    align-items: center;
+    /* Text-align özelliği, içerik kutusu içindeki metnin yatay hizalamasını belirler.  */
+    text-align: center;
+    /* Background özelliği, arka plan rengini belirler.  */
+    background: rgb(0,0,0,.7);
+    /* Height özelliği, elementin yüksekliğini belirler. */
+    height: 100vh;
+}
+/* Bu CSS kod bloğu, .header adlı bir HTML elementinin stil özelliklerini belirler. */
+.header{
+    /*Padding özelliği, elementin içeriğinin etrafındaki boşluğu belirler.  */
+    padding: 50px 20px 30px 20px;
+}
+/* Bu CSS kod bloğu, .header sınıfının içindeki h1 etiketine sahip HTML elementlerinin stil özelliklerini belirler. */
+.header h1{
+    /* Font-size özelliği, metin boyutunu belirler. */
+    font-size: 50px;
+    /* Color özelliği, metin rengini belirler */
+    color: #fbb034;
+    /* Text-shadow özelliği, metnin gölgesini belirler. */
+    text-shadow: 1px 3px rgb(0,0,0,.9);
+}
+/* Bu CSS kod bloğu, .header sınıfının içindeki input etiketine sahip HTML elementlerinin stil özelliklerini belirler. */
+.header input{
+    /* Width özelliği, elementin genişliğini belirler. */
+    width: 100%;
+    /* Padding özelliği, elementin içeriğinin etrafındaki boşluğu belirler. */
+    padding: 10px;
+    /* Background özelliği, arkaplan rengini belirler */
+    background: transparent;
+    /* Border özelliği, elementin kenar çizgisini belirler.  */
+    border: 0;
+    /* Outline özelliği, elementin dış çizgisini belirler. */
+    outline: 0;
+    /*Border-bottom özelliği, elementin alt kenarında bir çizgi oluşturur. */
+    border-bottom: 2px solid #fbb034;
+    /* Text-align özelliği, metnin hizalamasını belirler.  */
+    text-align: center;
+    /* Font-size özelliği, metin boyutunu belirler.  */
+    font-size: 20px;
+    /* Color özelliği, metin rengini belirler.  */
+    color: #f2f2f2;
+}
+/* Bu CSS kodu, "city" sınıfına sahip bir HTML öğesi için stil özellikleri tanımlar. */
+.city{
+/* font-size: 50px; - Yazı tipinin boyutunu 50 piksel olarak ayarlar. */
+font-size: 50px;
+/* font-weight: 500; - Yazı tipinin kalınlığını 500 olarak ayarlar. */
+font-weight: 500;
+/*margin-bottom: 10px; - Öğenin altındaki boşluğun boyutunu 10 piksel olarak ayarlar.  */
+margin-bottom: 10px;
+/* text-shadow: 1px 3px rgb(0,0,0,.8); - Yazı tipinin gölgesinin stilini tanımlar */
+text-shadow: 1px 3px rgb(0,0,0,.8);
+/* text-transform: uppercase; - Yazı tipinin tüm harflerinin büyük harf olarak gösterilmesini sağlar */
+text-transform: uppercase;
+}
+/* Bu CSS kodu, "temp" sınıfına sahip bir HTML öğesi için stil özellikleri tanımlar.  */
+.temp{
+    /* font-size: 60px; - Yazı tipinin boyutunu 60 piksel olarak ayarlar. */
+    font-size: 60px;
+    /* font-weight: 700; - Yazı tipinin kalınlığını 700 olarak ayarlar. */
+    font-weight: 700;
+    /* margin-bottom: 15px; - Öğenin altındaki boşluğun boyutunu 15 piksel olarak ayarlar. */
+    margin-bottom: 15px;
+    /* text-shadow: 1px 5px rgb(0,0,0,.1); - Yazı tipinin gölgesinin stilini tanımlar. */
+    text-shadow: 1px 5px rgb(0,0,0,.1);
+}
+/* Bu CSS kodu, "desc" sınıfına sahip bir HTML öğesi için stil özellikleri tanımlar. */
+.desc{
+    /* font-size: 35px; - Yazı tipinin boyutunu 35 piksel olarak ayarlar. */
+    font-size: 35px;
+    /* font-weight:bold; - Yazı tipinin kalınlığını kalın olarak ayarlar. */
+    font-weight:bold;
+    /* text-shadow: 10px 3px rgb(0,0,0,.8); - Yazı tipinin gölgesinin stilini tanımlar.  */
+    text-shadow: 10px 3px rgb(0,0,0,.8);
+    /* margin-bottom: 10px; - Öğenin altındaki boşluğun boyutunu 10 piksel olarak ayarlar. */
+    margin-bottom: 10px;
+    /* text-transform: capitalize; - Öğenin metninin her kelimesinin baş harfini büyük harfe dönüştürür. */
+    text-transform: capitalize;
+}
+/* Bu CSS kodu, "minmax" sınıfına sahip bir HTML öğesi için stil özellikleri tanımlar. */
+.minmax{
+    /* font-size: 45px; - Yazı tipinin boyutunu 45 piksel olarak ayarlar. */
+    font-size: 45px;
+    /* font-weight:bold; - Yazı tipinin kalınlığını kalın olarak ayarlar. */
+    font-weight: bold;
+}
+/* Bu CSS kodu, "name" sınıfına sahip bir HTML öğesi için stil özellikleri tanımlar.  */
+.name{
+    /* font-size: 18px; - Yazı tipinin boyutunu 18 piksel olarak ayarlar. */
+   font-size: 18px;
+   /* background-color: #fbb034; - Arkaplan rengini turuncu tonunda (#fbb034) olarak ayarlar. */
+   background-color: #fbb034;
+   /* margin-top: 50px; - Üst boşluk miktarını 50 piksel olarak ayarlar. */
+   margin-top: 50px;
+}
